@@ -34,7 +34,7 @@ def time_trial(arr, k, x_points, y_points):
     c = quickselect(arr, k)
     t = time.time() - start
     print ("Result %d Time taken: %f" % (c, t))
-    x_points.append(c)
+    x_points.append(k)
     y_points.append(t)
 
 def main():
@@ -48,6 +48,7 @@ def main():
     for i in range(10):
         time_trial (arr, temp_k, x_pts, y_pts)
         temp_k *= 2
+    plt.title('Quick select on array of size: ' + str(array_size))
     plt.xlabel('k-value')
     plt.ylabel('Execution time (s)')
     plt.plot(x_pts, y_pts)
