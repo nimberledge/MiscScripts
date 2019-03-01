@@ -1,3 +1,4 @@
+# Computes the height of Skippy's nth jump
 def skippy(n):
   if n == 1:
     return 100
