@@ -1,6 +1,7 @@
 import random
 import time
 import matplotlib.pyplot as plt
+
 def partition(arr, left, right, piv):
     '''Helper for select'''
     piv_val = arr[piv]

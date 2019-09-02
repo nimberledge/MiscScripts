@@ -1,0 +1,54 @@
+// Tree
+digraph {
+	U [fontcolor=blue]
+	X [fontcolor=blue]
+	U -> X
+	M [fontcolor=blue]
+	X -> M
+	Z [fontcolor=blue]
+	M -> Z
+	I [fontcolor=blue]
+	X -> I
+	W [fontcolor=blue]
+	I -> W
+	J [fontcolor=blue]
+	W -> J
+	E [fontcolor=blue]
+	J -> E
+	O [fontcolor=blue]
+	J -> O
+	V [fontcolor=blue]
+	O -> V
+	N [fontcolor=blue]
+	I -> N
+	H [fontcolor=blue]
+	N -> H
+	R [fontcolor=blue]
+	H -> R
+	D [fontcolor=blue]
+	R -> D
+	T [fontcolor=blue]
+	R -> T
+	K [fontcolor=blue]
+	U -> K
+	G [fontcolor=blue]
+	K -> G
+	L [fontcolor=blue]
+	K -> L
+	Y [fontcolor=blue]
+	L -> Y
+	A [fontcolor=blue]
+	Y -> A
+	F [fontcolor=blue]
+	A -> F
+	S [fontcolor=blue]
+	A -> S
+	Q [fontcolor=blue]
+	S -> Q
+	P [fontcolor=blue]
+	Q -> P
+	C [fontcolor=blue]
+	Y -> C
+	B [fontcolor=blue]
+	C -> B
+}
